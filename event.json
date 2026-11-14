@@ -1,63 +1,33 @@
 {
   "schemaVersion": 1,
-  "eventId": "49916170",
-  "revision": 7,
-  "name": "Gaudi Games Demo",
-  "start": "2026-11-13T13:49:00+01:00",
-  "end": "2026-11-13T19:31:00+01:00",
-  "entryGraceMinutes": 3,
+  "eventId": "F68F4FDC",
+  "revision": 1,
+  "name": "Gaudi Games 2026",
+  "start": "2026-11-14T10:00:00+01:00",
+  "end": "2026-11-14T22:00:00+01:00",
+  "entryGraceMinutes": 15,
   "alarmLeadMinutes": 10,
   "matchDurationMinutes": 15,
-  "publishedAt": "2026-11-14T20:13:10.8319272+01:00",
+  "publishedAt": "2026-11-14T20:16:36.9892806+01:00",
   "teams": [
     {
       "id": 1,
-      "name": "Die Wilden Kerle",
-      "codeCheck": "261D"
+      "name": "Boulderbitches",
+      "codeCheck": "FDEA"
     },
     {
       "id": 2,
-      "name": "Lederhosen-Legenden",
-      "codeCheck": "22CA"
-    },
-    {
-      "id": 3,
-      "name": "Wei\u00DFwurst-Express",
-      "codeCheck": "5377"
-    },
-    {
-      "id": 4,
-      "name": "Die Gamsb\u00E4rte",
-      "codeCheck": "BBBC"
-    },
-    {
-      "id": 5,
-      "name": "Brezn-Bande",
-      "codeCheck": "3EDB"
-    },
-    {
-      "id": 6,
-      "name": "Almrausch",
-      "codeCheck": "F79C"
-    },
-    {
-      "id": 7,
-      "name": "Dirndl-Power",
-      "codeCheck": "A909"
-    },
-    {
-      "id": 8,
-      "name": "Hopfen \u0026 Malz",
-      "codeCheck": "AB8D"
+      "name": "Team 2",
+      "codeCheck": "12A3"
     }
   ],
   "games": [
     {
       "id": 1,
-      "name": "Darts",
+      "name": "Neue Challenge",
       "kind": "Challenge",
-      "location": "Stadl",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied hat \u003Cstrong\u003E9 W\u00FCrfe\u003C/strong\u003E.\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003EGez\u00E4hlt wird die Summe aller W\u00FCrfe des Teams.\u003C/li\u003E\n\u003Cli\u003EPfeile, die nicht stecken bleiben, z\u00E4hlen 0.\u003C/li\u003E\n\u003C/ul\u003E\n",
+      "location": "",
+      "rulesHtml": "",
       "valueKind": "Number",
       "unit": "Punkte",
       "decimals": 0,
@@ -67,75 +37,10 @@
     },
     {
       "id": 2,
-      "name": "Nageln",
-      "kind": "Challenge",
-      "location": "Werkbank",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied schl\u00E4gt \u003Cstrong\u003Eeinen Nagel\u003C/strong\u003E ganz ins Holz.\u003C/p\u003E\n\u003Cp\u003EGez\u00E4hlt werden alle Hammerschl\u00E4ge des Teams \u2013 \u003Cstrong\u003Eweniger ist besser\u003C/strong\u003E.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Schl\u00E4ge",
-      "decimals": 0,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "LowerIsBetter"
-    },
-    {
-      "id": 3,
-      "name": "Kistenstapeln",
-      "kind": "Challenge",
-      "location": "Hof",
-      "rulesHtml": "\u003Cp\u003EEine Person steht auf den Kisten, das Team reicht nach.\u003C/p\u003E\n\u003Cp\u003EGez\u00E4hlt wird die \u003Cstrong\u003Eh\u00F6chste stabile Anzahl\u003C/strong\u003E Kisten.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Kisten",
-      "decimals": 0,
-      "minValue": 0,
-      "maxValue": 40,
-      "direction": "HigherIsBetter"
-    },
-    {
-      "id": 4,
-      "name": "Sackh\u00FCpfen-Staffel",
-      "kind": "Challenge",
-      "location": "Wiese",
-      "rulesHtml": "\u003Cp\u003EStaffel \u00FCber \u003Cstrong\u003E4 \u00D7 20 Meter\u003C/strong\u003E.\u003C/p\u003E\n\u003Cp\u003EDie Zeit stoppt der Stationsbetreuer.\u003C/p\u003E\n",
-      "valueKind": "Time",
-      "unit": "Sekunden",
-      "decimals": 1,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "LowerIsBetter"
-    },
-    {
-      "id": 5,
-      "name": "Gummistiefel-Weitwurf",
-      "kind": "Challenge",
-      "location": "Wiese",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied wirft \u003Cstrong\u003Eeinmal\u003C/strong\u003E. Der \u003Cstrong\u003Eweiteste Wurf\u003C/strong\u003E des Teams z\u00E4hlt.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Meter",
-      "decimals": 2,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "HigherIsBetter"
-    },
-    {
-      "id": 7,
-      "name": "Bierpong",
+      "name": "Neues Duell",
       "kind": "Versus",
-      "location": "Bar",
-      "rulesHtml": "\u003Cp\u003EJe 10 Becher. Eingetragen werden die \u003Cstrong\u003Egetroffenen Becher\u003C/strong\u003E eures Teams und der Ausgang des Duells.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Becher",
-      "decimals": 0,
-      "minValue": 0,
-      "maxValue": 10,
-      "direction": "HigherIsBetter"
-    },
-    {
-      "id": 8,
-      "name": "Fingerhakeln",
-      "kind": "Versus",
-      "location": "Stadl",
-      "rulesHtml": "\u003Cp\u003EBest of 3 \u2013 jedes Team stellt pro Runde eine andere Person.\u003C/p\u003E\n",
+      "location": "",
+      "rulesHtml": "",
       "valueKind": "None",
       "unit": "",
       "decimals": 0,
@@ -146,68 +51,12 @@
   ],
   "matches": [
     {
-      "id": 5,
-      "gameId": 7,
+      "id": 1,
+      "gameId": 2,
       "teamA": 1,
-      "teamB": 3,
-      "start": "2026-11-13T16:19:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 6,
-      "gameId": 7,
-      "teamA": 2,
-      "teamB": 4,
-      "start": "2026-11-13T16:39:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 7,
-      "gameId": 7,
-      "teamA": 5,
-      "teamB": 7,
-      "start": "2026-11-13T16:59:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 8,
-      "gameId": 7,
-      "teamA": 6,
-      "teamB": 8,
-      "start": "2026-11-13T17:19:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 9,
-      "gameId": 8,
-      "teamA": 1,
-      "teamB": 4,
-      "start": "2026-11-13T17:49:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 10,
-      "gameId": 8,
-      "teamA": 2,
-      "teamB": 3,
-      "start": "2026-11-13T18:09:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 11,
-      "gameId": 8,
-      "teamA": 5,
-      "teamB": 8,
-      "start": "2026-11-13T18:29:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 12,
-      "gameId": 8,
-      "teamA": 6,
-      "teamB": 7,
-      "start": "2026-11-13T18:49:00+01:00",
-      "location": "Stadl"
+      "teamB": 2,
+      "start": "2026-11-14T11:00:00+01:00",
+      "location": ""
     }
   ]
 }
