@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "eventId": "49916170",
-  "revision": 2,
+  "revision": 3,
   "name": "Gaudi Games Demo",
   "start": "2026-11-14T13:49:00+01:00",
   "end": "2026-11-14T21:49:00+01:00",
   "entryGraceMinutes": 15,
   "alarmLeadMinutes": 10,
   "matchDurationMinutes": 15,
-  "publishedAt": "2026-11-14T16:44:01.0513431+01:00",
+  "publishedAt": "2026-11-14T19:16:33.8135798+01:00",
   "teams": [
     {
       "id": 1,
