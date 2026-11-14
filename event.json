@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "eventId": "49916170",
-  "revision": 3,
+  "revision": 4,
   "name": "Gaudi Games Demo",
   "start": "2026-11-14T13:49:00+01:00",
   "end": "2026-11-14T21:49:00+01:00",
   "entryGraceMinutes": 15,
   "alarmLeadMinutes": 10,
   "matchDurationMinutes": 15,
-  "publishedAt": "2026-11-14T19:16:33.8135798+01:00",
+  "publishedAt": "2026-11-14T19:24:45.1217418+01:00",
   "teams": [
     {
       "id": 1,
@@ -118,19 +118,6 @@
       "direction": "HigherIsBetter"
     },
     {
-      "id": 6,
-      "name": "Tauziehen",
-      "kind": "Versus",
-      "location": "Arena",
-      "rulesHtml": "\u003Cp\u003EZwei Teams, ein Seil. Wer die Markierung zuerst \u00FCber die Linie zieht, gewinnt.\u003C/p\u003E\n",
-      "valueKind": "None",
-      "unit": "",
-      "decimals": 0,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "HigherIsBetter"
-    },
-    {
       "id": 7,
       "name": "Bierpong",
       "kind": "Versus",
@@ -158,38 +145,6 @@
     }
   ],
   "matches": [
-    {
-      "id": 1,
-      "gameId": 6,
-      "teamA": 1,
-      "teamB": 2,
-      "start": "2026-11-14T14:49:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 2,
-      "gameId": 6,
-      "teamA": 3,
-      "teamB": 4,
-      "start": "2026-11-14T15:09:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 3,
-      "gameId": 6,
-      "teamA": 5,
-      "teamB": 6,
-      "start": "2026-11-14T15:29:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 4,
-      "gameId": 6,
-      "teamA": 7,
-      "teamB": 8,
-      "start": "2026-11-14T15:49:00+01:00",
-      "location": "Arena"
-    },
     {
       "id": 5,
       "gameId": 7,
