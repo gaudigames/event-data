@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "eventId": "0C6CE3E7",
-  "revision": 1,
+  "revision": 2,
   "name": "Gaudi Games 2026",
   "start": "2026-11-15T10:00:00+01:00",
   "end": "2026-11-15T23:59:00+01:00",
@@ -9,7 +9,7 @@
   "alarmLeadMinutes": 10,
   "matchDurationMinutes": 15,
   "playersPerTeam": 3,
-  "publishedAt": "2026-11-15T20:44:11.3750501+01:00",
+  "publishedAt": "2026-11-15T21:38:35.500366+01:00",
   "teams": [
     {
       "id": 1,
@@ -50,6 +50,21 @@
       "minValue": null,
       "maxValue": null,
       "direction": "HigherIsBetter",
+      "entryMode": "PerPlayer",
+      "rounds": 1
+    },
+    {
+      "id": 3,
+      "name": "Neue Challenge",
+      "kind": "Challenge",
+      "location": "",
+      "rulesHtml": "",
+      "valueKind": "Number",
+      "unit": "Meter",
+      "decimals": 2,
+      "minValue": null,
+      "maxValue": null,
+      "direction": "LowerIsBetter",
       "entryMode": "PerPlayer",
       "rounds": 1
     }
