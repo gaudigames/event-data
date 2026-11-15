@@ -1,284 +1,67 @@
 {
-  "schemaVersion": 1,
-  "eventId": "6154EE2F",
+  "schemaVersion": 2,
+  "eventId": "0C6CE3E7",
   "revision": 1,
-  "name": "Gaudi Games 2027",
-  "start": "2026-11-15T13:00:00+01:00",
-  "end": "2026-11-15T18:00:00+01:00",
+  "name": "Gaudi Games 2026",
+  "start": "2026-11-15T10:00:00+01:00",
+  "end": "2026-11-15T23:59:00+01:00",
   "entryGraceMinutes": 15,
   "alarmLeadMinutes": 10,
   "matchDurationMinutes": 15,
-  "publishedAt": "2026-11-15T12:05:02.1600873+01:00",
+  "playersPerTeam": 3,
+  "publishedAt": "2026-11-15T20:44:11.3750501+01:00",
   "teams": [
     {
       "id": 1,
-      "name": "Die Wilden Kerle",
-      "codeCheck": "138C"
+      "name": "Team 1",
+      "codeCheck": "F919"
     },
     {
       "id": 2,
-      "name": "Lederhosen-Legenden",
-      "codeCheck": "32E6"
-    },
-    {
-      "id": 3,
-      "name": "Wei\u00DFwurst-Express",
-      "codeCheck": "62BD"
-    },
-    {
-      "id": 4,
-      "name": "Die Gamsb\u00E4rte",
-      "codeCheck": "BF49"
-    },
-    {
-      "id": 5,
-      "name": "Brezn-Bande",
-      "codeCheck": "0BEB"
-    },
-    {
-      "id": 6,
-      "name": "Almrausch",
-      "codeCheck": "AABF"
-    },
-    {
-      "id": 7,
-      "name": "Dirndl-Power",
-      "codeCheck": "DC98"
-    },
-    {
-      "id": 8,
-      "name": "Hopfen \u0026 Malz",
-      "codeCheck": "1FDD"
-    },
-    {
-      "id": 9,
-      "name": "Team 9",
-      "codeCheck": "F4E3"
+      "name": "Team 2",
+      "codeCheck": "69E3"
     }
   ],
   "games": [
     {
       "id": 1,
-      "name": "Darts",
-      "kind": "Versus",
-      "location": "Stadl",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied hat \u003Cstrong\u003E9 W\u00FCrfe\u003C/strong\u003E.\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003EGez\u00E4hlt wird die Summe aller W\u00FCrfe des Teams.\u003C/li\u003E\n\u003Cli\u003EPfeile, die nicht stecken bleiben, z\u00E4hlen 0.\u003C/li\u003E\n\u003C/ul\u003E\n",
+      "name": "Challenge 1",
+      "kind": "Challenge",
+      "location": "",
+      "rulesHtml": "",
       "valueKind": "Number",
       "unit": "Punkte",
       "decimals": 0,
       "minValue": null,
       "maxValue": null,
-      "direction": "HigherIsBetter"
+      "direction": "HigherIsBetter",
+      "entryMode": "PerPlayer",
+      "rounds": 3
     },
     {
       "id": 2,
-      "name": "Nageln",
-      "kind": "Challenge",
-      "location": "Werkbank",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied schl\u00E4gt \u003Cstrong\u003Eeinen Nagel\u003C/strong\u003E ganz ins Holz.\u003C/p\u003E\n\u003Cp\u003EGez\u00E4hlt werden alle Hammerschl\u00E4ge des Teams \u2013 \u003Cstrong\u003Eweniger ist besser\u003C/strong\u003E.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Schl\u00E4ge",
-      "decimals": 0,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "LowerIsBetter"
-    },
-    {
-      "id": 3,
-      "name": "Kistenstapeln",
-      "kind": "Challenge",
-      "location": "Hof",
-      "rulesHtml": "\u003Cp\u003EEine Person steht auf den Kisten, das Team reicht nach.\u003C/p\u003E\n\u003Cp\u003EGez\u00E4hlt wird die \u003Cstrong\u003Eh\u00F6chste stabile Anzahl\u003C/strong\u003E Kisten.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Kisten",
-      "decimals": 0,
-      "minValue": 0,
-      "maxValue": 40,
-      "direction": "HigherIsBetter"
-    },
-    {
-      "id": 4,
-      "name": "Sackh\u00FCpfen-Staffel",
-      "kind": "Challenge",
-      "location": "Wiese",
-      "rulesHtml": "\u003Cp\u003EStaffel \u00FCber \u003Cstrong\u003E4 \u00D7 20 Meter\u003C/strong\u003E.\u003C/p\u003E\n\u003Cp\u003EDie Zeit stoppt der Stationsbetreuer.\u003C/p\u003E\n",
-      "valueKind": "Time",
-      "unit": "Sekunden",
-      "decimals": 1,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "LowerIsBetter"
-    },
-    {
-      "id": 5,
-      "name": "Gummistiefel-Weitwurf",
-      "kind": "Challenge",
-      "location": "Wiese",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied wirft \u003Cstrong\u003Eeinmal\u003C/strong\u003E. Der \u003Cstrong\u003Eweiteste Wurf\u003C/strong\u003E des Teams z\u00E4hlt.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Meter",
-      "decimals": 2,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "HigherIsBetter"
-    },
-    {
-      "id": 6,
-      "name": "Tauziehen",
-      "kind": "Versus",
-      "location": "Arena",
-      "rulesHtml": "\u003Cp\u003EZwei Teams, ein Seil. Wer die Markierung zuerst \u00FCber die Linie zieht, gewinnt.\u003C/p\u003E\n",
-      "valueKind": "None",
-      "unit": "",
-      "decimals": 0,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "HigherIsBetter"
-    },
-    {
-      "id": 7,
-      "name": "Bierpong",
-      "kind": "Versus",
-      "location": "Bar",
-      "rulesHtml": "\u003Cp\u003EJe 10 Becher. Eingetragen werden die \u003Cstrong\u003Egetroffenen Becher\u003C/strong\u003E eures Teams und der Ausgang des Duells.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Becher",
-      "decimals": 0,
-      "minValue": 0,
-      "maxValue": 10,
-      "direction": "HigherIsBetter"
-    },
-    {
-      "id": 8,
-      "name": "Fingerhakeln",
-      "kind": "Versus",
-      "location": "Stadl",
-      "rulesHtml": "\u003Cp\u003EBest of 3 \u2013 jedes Team stellt pro Runde eine andere Person.\u003C/p\u003E\n",
-      "valueKind": "None",
-      "unit": "",
-      "decimals": 0,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "HigherIsBetter"
-    },
-    {
-      "id": 9,
-      "name": "Neues Duell",
+      "name": "Challenge 2",
       "kind": "Versus",
       "location": "",
       "rulesHtml": "",
-      "valueKind": "None",
-      "unit": "",
+      "valueKind": "Number",
+      "unit": "Punkte",
       "decimals": 0,
       "minValue": null,
       "maxValue": null,
-      "direction": "HigherIsBetter"
+      "direction": "HigherIsBetter",
+      "entryMode": "PerPlayer",
+      "rounds": 1
     }
   ],
   "matches": [
     {
       "id": 1,
-      "gameId": 6,
+      "gameId": 2,
       "teamA": 1,
       "teamB": 2,
       "start": "2026-11-15T11:00:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 2,
-      "gameId": 6,
-      "teamA": 3,
-      "teamB": 4,
-      "start": "2026-11-15T11:20:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 3,
-      "gameId": 6,
-      "teamA": 5,
-      "teamB": 6,
-      "start": "2026-11-15T11:40:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 4,
-      "gameId": 6,
-      "teamA": 7,
-      "teamB": 8,
-      "start": "2026-11-15T12:00:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 5,
-      "gameId": 7,
-      "teamA": 1,
-      "teamB": 3,
-      "start": "2026-11-15T12:30:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 6,
-      "gameId": 7,
-      "teamA": 2,
-      "teamB": 4,
-      "start": "2026-11-15T12:50:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 7,
-      "gameId": 7,
-      "teamA": 5,
-      "teamB": 7,
-      "start": "2026-11-15T13:10:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 8,
-      "gameId": 7,
-      "teamA": 6,
-      "teamB": 8,
-      "start": "2026-11-15T13:30:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 9,
-      "gameId": 8,
-      "teamA": 1,
-      "teamB": 4,
-      "start": "2026-11-15T14:00:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 10,
-      "gameId": 8,
-      "teamA": 2,
-      "teamB": 3,
-      "start": "2026-11-15T14:20:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 11,
-      "gameId": 8,
-      "teamA": 5,
-      "teamB": 8,
-      "start": "2026-11-15T14:40:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 12,
-      "gameId": 8,
-      "teamA": 6,
-      "teamB": 7,
-      "start": "2026-11-15T15:00:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 13,
-      "gameId": 6,
-      "teamA": 3,
-      "teamB": 7,
-      "start": "2026-11-15T15:15:00+01:00",
-      "location": "Arena"
+      "location": ""
     }
   ]
 }
