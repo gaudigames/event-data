@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "eventId": "AFDA1F79",
-  "revision": 1,
+  "revision": 2,
   "name": "Gaudi Games 2026",
-  "start": "2026-11-21T10:00:00+01:00",
-  "end": "2026-11-21T18:00:00+01:00",
+  "start": "2026-11-20T10:00:00+01:00",
+  "end": "2026-11-20T20:00:00+01:00",
   "entryGraceMinutes": 15,
   "alarmLeadMinutes": 10,
   "matchDurationMinutes": 15,
   "playersPerTeam": 3,
-  "publishedAt": "2026-11-20T18:53:00.5929277+01:00",
+  "publishedAt": "2026-11-20T18:54:12.8912915+01:00",
   "teams": [
     {
       "id": 1,
