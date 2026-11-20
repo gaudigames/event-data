@@ -1,169 +1,29 @@
 {
   "schemaVersion": 2,
-  "eventId": "2ABEB456",
+  "eventId": "AFDA1F79",
   "revision": 1,
-  "name": "Gaudi Games Demo",
-  "start": "2026-11-20T10:00:00+01:00",
-  "end": "2026-11-20T18:00:00+01:00",
+  "name": "Gaudi Games 2026",
+  "start": "2026-11-21T10:00:00+01:00",
+  "end": "2026-11-21T18:00:00+01:00",
   "entryGraceMinutes": 15,
   "alarmLeadMinutes": 10,
   "matchDurationMinutes": 15,
   "playersPerTeam": 3,
-  "publishedAt": "2026-11-20T17:20:39.7135829+01:00",
+  "publishedAt": "2026-11-20T18:53:00.5929277+01:00",
   "teams": [
     {
       "id": 1,
-      "name": "Die Wilden Kerle",
-      "codeCheck": "9B24"
-    },
-    {
-      "id": 2,
-      "name": "Lederhosen-Legenden",
-      "codeCheck": "19E0"
-    },
-    {
-      "id": 3,
-      "name": "Wei\u00DFwurst-Express",
-      "codeCheck": "0D29"
-    },
-    {
-      "id": 4,
-      "name": "Die Gamsb\u00E4rte",
-      "codeCheck": "3D6D"
-    },
-    {
-      "id": 5,
-      "name": "Brezn-Bande",
-      "codeCheck": "54A4"
-    },
-    {
-      "id": 6,
-      "name": "Almrausch",
-      "codeCheck": "E012"
-    },
-    {
-      "id": 7,
-      "name": "Dirndl-Power",
-      "codeCheck": "773F"
-    },
-    {
-      "id": 8,
-      "name": "Hopfen \u0026 Malz",
-      "codeCheck": "C2BE"
+      "name": "Streetback Boys",
+      "codeCheck": "5319"
     }
   ],
   "games": [
     {
       "id": 1,
-      "name": "Darts",
-      "kind": "Challenge",
-      "location": "Stadl",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied wirft \u003Cstrong\u003E3 Runden zu je 3 Pfeilen\u003C/strong\u003E.\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003ETragt nach jeder Runde die Punkte jedes Spielers ein.\u003C/li\u003E\n\u003Cli\u003EGez\u00E4hlt wird die Summe des ganzen Teams.\u003C/li\u003E\n\u003Cli\u003EPfeile, die nicht stecken bleiben, z\u00E4hlen 0.\u003C/li\u003E\n\u003C/ul\u003E\n",
-      "valueKind": "Number",
-      "unit": "Punkte",
-      "decimals": 0,
-      "minValue": 0,
-      "maxValue": 180,
-      "direction": "HigherIsBetter",
-      "entryMode": "PerPlayer",
-      "rounds": 3
-    },
-    {
-      "id": 2,
-      "name": "Nageln",
-      "kind": "Challenge",
-      "location": "Werkbank",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied schl\u00E4gt \u003Cstrong\u003Eeinen Nagel\u003C/strong\u003E ganz ins Holz.\u003C/p\u003E\n\u003Cp\u003ETragt die Hammerschl\u00E4ge jedes Spielers ein \u2013 \u003Cstrong\u003Eweniger ist besser\u003C/strong\u003E.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Schl\u00E4ge",
-      "decimals": 0,
-      "minValue": 1,
-      "maxValue": 99,
-      "direction": "LowerIsBetter",
-      "entryMode": "PerPlayer",
-      "rounds": 1
-    },
-    {
-      "id": 3,
-      "name": "Kistenstapeln",
-      "kind": "Challenge",
-      "location": "Hof",
-      "rulesHtml": "\u003Cp\u003EEine Person steht auf den Kisten, das Team reicht nach.\u003C/p\u003E\n\u003Cp\u003EEingetragen wird die \u003Cstrong\u003Eh\u00F6chste stabile Anzahl\u003C/strong\u003E Kisten des Teams.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Kisten",
-      "decimals": 0,
-      "minValue": 0,
-      "maxValue": 40,
-      "direction": "HigherIsBetter",
-      "entryMode": "Team",
-      "rounds": 1
-    },
-    {
-      "id": 4,
-      "name": "Sackh\u00FCpfen-Staffel",
-      "kind": "Challenge",
-      "location": "Wiese",
-      "rulesHtml": "\u003Cp\u003EStaffel \u00FCber \u003Cstrong\u003E3 \u00D7 20 Meter\u003C/strong\u003E.\u003C/p\u003E\n\u003Cp\u003EDie Zeit des Teams stoppt der Stationsbetreuer.\u003C/p\u003E\n",
-      "valueKind": "Time",
-      "unit": "Sekunden",
-      "decimals": 1,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "LowerIsBetter",
-      "entryMode": "Team",
-      "rounds": 1
-    },
-    {
-      "id": 5,
-      "name": "Gummistiefel-Weitwurf",
-      "kind": "Challenge",
-      "location": "Wiese",
-      "rulesHtml": "\u003Cp\u003EJedes Teammitglied wirft \u003Cstrong\u003Ezweimal\u003C/strong\u003E. Tragt jeden Wurf ein \u2013 der \u003Cstrong\u003Eweiteste Wurf\u003C/strong\u003E des Teams z\u00E4hlt.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Meter",
-      "decimals": 2,
-      "minValue": 0,
-      "maxValue": 100,
-      "direction": "HigherIsBetter",
-      "entryMode": "PerPlayer",
-      "rounds": 2
-    },
-    {
-      "id": 6,
-      "name": "Tauziehen",
+      "name": "Popo Bumsen",
       "kind": "Versus",
-      "location": "Arena",
-      "rulesHtml": "\u003Cp\u003EZwei Teams, ein Seil. Wer die Markierung zuerst \u00FCber die Linie zieht, gewinnt.\u003C/p\u003E\n",
-      "valueKind": "None",
-      "unit": "",
-      "decimals": 0,
-      "minValue": null,
-      "maxValue": null,
-      "direction": "HigherIsBetter",
-      "entryMode": "PerPlayer",
-      "rounds": 1
-    },
-    {
-      "id": 7,
-      "name": "Bierpong",
-      "kind": "Versus",
-      "location": "Bar",
-      "rulesHtml": "\u003Cp\u003EJe 10 Becher. Tragt ein, wie viele \u003Cstrong\u003EBecher jeder Spieler\u003C/strong\u003E getroffen hat.\u003C/p\u003E\n\u003Cp\u003EDas Team mit mehr Treffern gewinnt das Duell \u2013 das rechnet der Gaudi Master aus.\u003C/p\u003E\n",
-      "valueKind": "Number",
-      "unit": "Becher",
-      "decimals": 0,
-      "minValue": 0,
-      "maxValue": 10,
-      "direction": "HigherIsBetter",
-      "entryMode": "PerPlayer",
-      "rounds": 1
-    },
-    {
-      "id": 8,
-      "name": "Fingerhakeln",
-      "kind": "Versus",
-      "location": "Stadl",
-      "rulesHtml": "\u003Cp\u003EBest of 3 \u2013 jedes Team stellt pro Runde eine andere Person.\u003C/p\u003E\n",
+      "location": "Dani\u00B4s Pforte",
+      "rulesHtml": "\u003Cp\u003E\u003Cstrong\u003EStehend\u003C/strong\u003E\u003C/p\u003E\n",
       "valueKind": "None",
       "unit": "",
       "decimals": 0,
@@ -174,102 +34,5 @@
       "rounds": 1
     }
   ],
-  "matches": [
-    {
-      "id": 1,
-      "gameId": 6,
-      "teamA": 1,
-      "teamB": 2,
-      "start": "2026-11-20T11:00:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 2,
-      "gameId": 6,
-      "teamA": 3,
-      "teamB": 4,
-      "start": "2026-11-20T11:20:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 3,
-      "gameId": 6,
-      "teamA": 5,
-      "teamB": 6,
-      "start": "2026-11-20T11:40:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 4,
-      "gameId": 6,
-      "teamA": 7,
-      "teamB": 8,
-      "start": "2026-11-20T12:00:00+01:00",
-      "location": "Arena"
-    },
-    {
-      "id": 5,
-      "gameId": 7,
-      "teamA": 1,
-      "teamB": 3,
-      "start": "2026-11-20T12:30:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 6,
-      "gameId": 7,
-      "teamA": 2,
-      "teamB": 4,
-      "start": "2026-11-20T12:50:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 7,
-      "gameId": 7,
-      "teamA": 5,
-      "teamB": 7,
-      "start": "2026-11-20T13:10:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 8,
-      "gameId": 7,
-      "teamA": 6,
-      "teamB": 8,
-      "start": "2026-11-20T13:30:00+01:00",
-      "location": "Bar"
-    },
-    {
-      "id": 9,
-      "gameId": 8,
-      "teamA": 1,
-      "teamB": 4,
-      "start": "2026-11-20T14:00:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 10,
-      "gameId": 8,
-      "teamA": 2,
-      "teamB": 3,
-      "start": "2026-11-20T14:20:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 11,
-      "gameId": 8,
-      "teamA": 5,
-      "teamB": 8,
-      "start": "2026-11-20T14:40:00+01:00",
-      "location": "Stadl"
-    },
-    {
-      "id": 12,
-      "gameId": 8,
-      "teamA": 6,
-      "teamB": 7,
-      "start": "2026-11-20T15:00:00+01:00",
-      "location": "Stadl"
-    }
-  ]
+  "matches": []
 }
